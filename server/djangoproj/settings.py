@@ -28,7 +28,10 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "https://dealership-app.1dps8ljw5lt5.us-south.codeengine.appdomain.cloud",
+    "https://mzamarri.dev"
+]
 CSRF_TRUSTED_ORIGINS = []
 
 REST_FRAMEWORK = {
