@@ -3,7 +3,7 @@ run-name: Renewing SSL for custom url on IBM Cloud.
 
 on: 
   schedule:
-    - cron: "50 18 * * *" 
+    - cron: "6 19 * * *" 
 
 jobs:
   renew-ssl:
