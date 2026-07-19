@@ -1,5 +1,5 @@
-name: "SSL renewal for ibmcloud code engine"
-run-name: "Renewing SSL for custom url on IBM Cloud."
+name: SSL renewal for ibmcloud code engine
+run-name: Renewing SSL for custom url on IBM Cloud.
 
 on: 
   schedule:
