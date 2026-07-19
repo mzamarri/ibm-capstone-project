@@ -1,3 +1,17 @@
 name: "SSL renewal for ibmcloud code engine"
+run-name: "Renewing SSL for custom url on IBM Cloud."
 
-on: schedule
+on: 
+  schedule:
+    - cron: "50 18 * * *" 
+
+jobs:
+  renew-ssl:
+    name: "Renew SSL certificates for custom domain on IBM Cloud"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Simply github action test run."
+        run: echo "This is a test run"
+    
+      
